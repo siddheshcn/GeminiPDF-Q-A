@@ -77,7 +77,6 @@ def get_conversional_chain():
 
     prompt_template = """
     Answer the question as detailed as possible from the provided context, make sure to provide all the details. If the answer is not available in the context, just say, "answer is not available in the context", don't provide the wrong answer.
-    However, if the question asks about recommendations, provide them.
 
     Context:
     {context}?
